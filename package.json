@@ -1,6 +1,6 @@
 {
   "name": "react-responsive-pinch-zoom-pan",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Enables zooming and panning an image, both mobile and desktop.",
   "main": "dist/PinchZoomPan.js",
   "scripts": {
@@ -52,7 +52,7 @@
   "homepage": "https://github.com/bradstiff/react-responsive-pinch-zoom-pan",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bradstiff/react-responsive-pinch-zoom-pan.git"
+    "url": "git@github.com:TTATPuOT/react-responsive-pinch-zoom-pan.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.13",

@@ -1,8 +1,14 @@
-# react-responsive-pinch-zoom-pan
+Fork of [react-responsive-pinch-zoom-pan](https://github.com/bradstiff/react-responsive-pinch-zoom-pan)
+
+Added just one time double-tap zoom, second try will reset zoom.
+---
+
+Original README:
+
 
 A React component that adds pinch-zoom and pan capability to an `img` element. Both mobile and desktop browsers are supported. In desktop mode, you zoom with the mouse scrollwheel, and pan by dragging.
 
-On render, the zoom and pan values are applied using CSS transforms. 
+On render, the zoom and pan values are applied using CSS transforms.
 
 ## Install
 
@@ -45,7 +51,7 @@ Prop		| Type		| Default	| Description
 ------------|-----------|-----------|--------------------------------------------------------------------------------------------------------------------
 initialScale| number	| 'auto'	| The initial scale of the image.  When `auto`, the image will be proportionally 'autofit' to the container.
 minScale	| number	| 'auto'	| The minimum scale to which the image can be zoomed out. When `auto`, the minimum scale is the 'autofit' scale.
-maxScale	| number	| 1			| The maximum scale to which the image can be zoomed in. 
+maxScale	| number	| 1			| The maximum scale to which the image can be zoomed in.
 position    | 'center' or 'topLeft'    | 'topLeft'  | Position of the image relative to the container. Applies when the scaled image is smaller than the container.
 zoomButtons	| bool		| true		| Render plus (+) and minus (-) buttons on top of the image as another way to access the zoom feature.
 doubleTapBehavior	| 'reset' or 'zoom' | 'reset'		| Whether to zoom in or reset to initial scale on double-click / double-tap.
